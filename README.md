@@ -2,12 +2,7 @@
 
 Housing prices in Bangalore are predicted using *linear regression* algorithm 
 with 84% accuracy. The price varies with location, number of bedrooms,  
-square foot area etc.The dataset, taken from Kaggle is cleaned to remove inaccurate and erroneous data. Outlier removal,  The model is trained using linear regression module in 
-*scikit-learn* library in **python**. **Jupyter notebook** and *matplotlib* library is used  
-for organization and visualization of data. The model is split using the    
-*train_test_split* method and *K fold cross validation* is used to measure the   
-accuracy of the model. Using *Grid Search CV* the best model and   
-corresponding parameters were found. Source code link
+square foot area etc.The dataset, taken from Kaggle is cleaned to remove inaccurate and erroneous data. Outlier removal,  The model is trained using linear regression module in *scikit-learn* library in *python*. *Jupyter notebook* and *matplotlib* library is used for organization and visualization of data. The model is split using the *train_test_split* method and *K fold cross validation* is used to measure the accuracy of the model. Using *Grid Search CV* the best model and corresponding parameters were found. Source code link
 
 ## Steps or Approach
 - **Loading** : Load the dataset from Kaggle into a dataframe in Jupyter notebook
